@@ -1,0 +1,16 @@
+baseURL = "/"
+languageCode = "ru"
+title = "Герчет Вячеслав"
+publishDir = "../docs"
+relativeURLs = true
+canonifyURLs = false
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  author = "Герчет Вячеслав"
+  group = "НКАбд-03-25"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Герчет Вячеслав</title><link>/posts/</link><description>Recent content in Posts on Герчет Вячеслав</description><generator>Hugo</generator><language>ru</language><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Оформление отчёта</title><link>/posts/report-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/report-formatting/</guid><description>&lt;p&gt;Оформление отчёта выполнялось в Markdown с последующей сборкой в PDF и DOCX.
+Такой подход позволяет готовить отчёт как воспроизводимый текстовый документ.&lt;/p&gt;
+&lt;p&gt;В отчётах были использованы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;титульные данные;&lt;/li&gt;
+&lt;li&gt;содержание;&lt;/li&gt;
+&lt;li&gt;скриншоты формулировок заданий;&lt;/li&gt;
+&lt;li&gt;скриншоты подтверждения прохождения;&lt;/li&gt;
+&lt;li&gt;пояснения выбора ответов;&lt;/li&gt;
+&lt;li&gt;выводы и список литературы.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Итоговые отчёты были собраны с помощью Pandoc и LaTeX.&lt;/p&gt;</description></item><item><title>Пост по прошедшей неделе</title><link>/posts/week-report/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/week-report/</guid><description>&lt;p&gt;На прошедшей неделе была выполнена основная работа по прохождению внешнего курса
+Stepik «Введение в Linux». Были подготовлены скриншоты контрольных мероприятий,
+оформлены отчёты и презентации по трём этапам.&lt;/p&gt;
+&lt;p&gt;Основные выполненные действия:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;прохождение трёх этапов курса;&lt;/li&gt;
+&lt;li&gt;подготовка отчётов в Markdown, PDF и DOCX;&lt;/li&gt;
+&lt;li&gt;подготовка презентаций в Markdown, HTML и PDF;&lt;/li&gt;
+&lt;li&gt;запись видеозащит презентаций;&lt;/li&gt;
+&lt;li&gt;подготовка материалов для GitHub и GitHub Pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Эта работа позволила закрепить навыки работы с Linux, терминалом, сервером,
+bash-скриптами и инструментами оформления документации.&lt;/p&gt;</description></item><item><title>Управление версиями Git</title><link>/posts/git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/git/</guid><description>&lt;p&gt;Git - это система контроля версий, которая позволяет сохранять историю изменений проекта.
+Она особенно полезна при подготовке отчётов, презентаций и сайта, потому что все изменения
+можно фиксировать отдельными коммитами.&lt;/p&gt;
+&lt;p&gt;В проекте Git используется для хранения:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;исходных файлов отчётов;&lt;/li&gt;
+&lt;li&gt;презентаций;&lt;/li&gt;
+&lt;li&gt;материалов сайта;&lt;/li&gt;
+&lt;li&gt;архивов исходных данных;&lt;/li&gt;
+&lt;li&gt;итоговых PDF и DOCX файлов.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;GitHub используется как удалённый репозиторий и как платформа для публикации сайта через GitHub Pages.&lt;/p&gt;</description></item><item><title>Язык разметки Markdown</title><link>/posts/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/posts/markdown/</guid><description>&lt;p&gt;Markdown - это лёгкий язык разметки, который используется для подготовки текстовых документов,
+README-файлов, отчётов и презентаций.&lt;/p&gt;
+&lt;p&gt;В рамках проекта Markdown применялся для оформления отчётов по внешнему курсу.
+После этого исходные файлы были преобразованы в PDF и DOCX. Такой подход удобен тем,
+что один исходный файл можно хранить в Git и использовать для получения нескольких форматов.&lt;/p&gt;
+&lt;p&gt;Основные преимущества Markdown:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;простой синтаксис;&lt;/li&gt;
+&lt;li&gt;удобство хранения в Git;&lt;/li&gt;
+&lt;li&gt;возможность преобразования в PDF, DOCX и HTML;&lt;/li&gt;
+&lt;li&gt;хорошая читаемость исходного текста.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

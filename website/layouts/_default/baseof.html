@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .Title }}{{ .Title }} - {{ end }}Герчет Вячеслав</title>
+  <link rel="stylesheet" href="{{ "assets/style.css" | relURL }}">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <img class="avatar" src="{{ "assets/photo.jpg" | relURL }}" alt="Фотография владельца сайта">
+      <div>
+        <h1>Герчет Вячеслав</h1>
+        <p>Сайт научно-инженерного работника</p>
+        <p>Группа НКАбд-03-25</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="{{ "" | relURL }}">Главная</a>
+    <a href="{{ "projects/stepik-linux/" | relURL }}">Проект Stepik Linux</a>
+    <a href="{{ "posts/week-report/" | relURL }}">Пост недели</a>
+    <a href="{{ "posts/markdown/" | relURL }}">Markdown</a>
+    <a href="{{ "en/" | relURL }}">English</a>
+  </nav>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer>
+    <p>Герчет Вячеслав - НКАбд-03-25</p>
+  </footer>
+</body>
+</html>
