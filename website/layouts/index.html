@@ -1,36 +1,37 @@
 {{ define "main" }}
-<section id="about">
+
+<section id="biography">
   <h2>Biography</h2>
-  <p>
-    Я студент группы НКАбд-03-25. В рамках учебной деятельности выполняю проекты,
-    связанные с информационными технологиями, операционными системами Linux,
-    командной строкой, обработкой данных и оформлением научно-технической документации.
+  <p class="lead">
+    Я студент группы НКАбд-03-25. Моя учебная и проектная деятельность связана с информационными технологиями, Linux, Git, Markdown, подготовкой технической документации и публикацией материалов на GitHub Pages.
   </p>
   <p>
-    Основное направление работы - практическое применение Linux, Git, Markdown,
-    GitHub Pages, статических сайтов, отчётов и презентаций.
+    Данный сайт оформлен как персональный сайт научно-инженерного работника. Он содержит сведения обо мне, интересы, образование, навыки, опыт, достижения, ссылки на научные и библиометрические ресурсы, посты и учебные проекты.
   </p>
 </section>
 
 <section id="interests">
   <h2>Interests</h2>
-  <div>
-    <span class="badge">Linux</span>
-    <span class="badge">Bash</span>
-    <span class="badge">Git</span>
-    <span class="badge">Markdown</span>
-    <span class="badge">GitHub Pages</span>
-    <span class="badge">Техническая документация</span>
-    <span class="badge">Автоматизация</span>
-  </div>
+  <span class="badge">Linux</span>
+  <span class="badge">Bash</span>
+  <span class="badge">Git</span>
+  <span class="badge">GitHub Pages</span>
+  <span class="badge">Markdown</span>
+  <span class="badge">Hugo</span>
+  <span class="badge">Техническая документация</span>
+  <span class="badge">Автоматизация</span>
 </section>
 
 <section id="education">
   <h2>Education</h2>
-  <div class="card">
-    <h3>НКАбд-03-25</h3>
-    <p>Студент группы НКАбд-03-25.</p>
-    <p>Учебная деятельность связана с информационными технологиями, прикладными задачами и оформлением инженерных проектов.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>Российский университет дружбы народов</h3>
+      <p class="meta">Группа НКАбд-03-25</p>
+      <p>
+        Учебная деятельность связана с информационными технологиями, прикладными задачами, оформлением инженерных проектов, работой с программным обеспечением и подготовкой отчётных материалов.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -44,8 +45,8 @@
         <li>Командная строка и Bash</li>
         <li>Git и GitHub</li>
         <li>Markdown, HTML, PDF, DOCX</li>
-        <li>Quarto, Pandoc, Hugo</li>
-        <li>GitHub Pages</li>
+        <li>Hugo и GitHub Pages</li>
+        <li>Pandoc и Quarto</li>
       </ul>
     </div>
     <div class="card">
@@ -53,8 +54,9 @@
       <ul>
         <li>Подготовка отчётов в Markdown</li>
         <li>Сборка презентаций в HTML и PDF</li>
-        <li>Работа с файлами, архивами и терминалом Linux</li>
-        <li>Публикация материалов проекта на GitHub</li>
+        <li>Работа с файловой структурой Linux</li>
+        <li>Публикация проекта через GitHub Pages</li>
+        <li>Подготовка GitHub Release</li>
       </ul>
     </div>
     <div class="card">
@@ -64,6 +66,7 @@
         <li>Подготовлены отчёты по трём этапам</li>
         <li>Подготовлены презентации по трём этапам</li>
         <li>Получен сертификат прохождения курса</li>
+        <li>Создан персональный сайт на Hugo</li>
       </ul>
     </div>
   </div>
@@ -71,28 +74,50 @@
 
 <section id="resources">
   <h2>Научные и библиометрические ресурсы</h2>
-  <p class="small">При наличии личных профилей ссылки можно заменить на персональные страницы.</p>
+  <p class="meta">
+    В задании требуется разместить ссылки на научные, библиометрические и профессиональные ресурсы. При наличии личных профилей ссылки могут быть заменены на персональные страницы.
+  </p>
   <div class="grid">
-    <div class="card"><h3>eLibrary</h3><a class="button" href="https://elibrary.ru/">Открыть</a></div>
-    <div class="card"><h3>Google Scholar</h3><a class="button" href="https://scholar.google.com/">Открыть</a></div>
-    <div class="card"><h3>ORCID</h3><a class="button" href="https://orcid.org/">Открыть</a></div>
-    <div class="card"><h3>Mendeley</h3><a class="button" href="https://www.mendeley.com/">Открыть</a></div>
-    <div class="card"><h3>ResearchGate</h3><a class="button" href="https://www.researchgate.net/">Открыть</a></div>
-    <div class="card"><h3>Academia.edu</h3><a class="button" href="https://www.academia.edu/">Открыть</a></div>
-    <div class="card"><h3>arXiv</h3><a class="button" href="https://arxiv.org/">Открыть</a></div>
-    <div class="card"><h3>GitHub</h3><a class="button" href="https://github.com/">Открыть</a></div>
+    <div class="card compact"><h3>eLibrary</h3><a class="button" href="https://elibrary.ru/">Открыть</a></div>
+    <div class="card compact"><h3>Google Scholar</h3><a class="button" href="https://scholar.google.com/">Открыть</a></div>
+    <div class="card compact"><h3>ORCID</h3><a class="button" href="https://orcid.org/">Открыть</a></div>
+    <div class="card compact"><h3>Mendeley</h3><a class="button" href="https://www.mendeley.com/">Открыть</a></div>
+    <div class="card compact"><h3>ResearchGate</h3><a class="button" href="https://www.researchgate.net/">Открыть</a></div>
+    <div class="card compact"><h3>Academia.edu</h3><a class="button" href="https://www.academia.edu/">Открыть</a></div>
+    <div class="card compact"><h3>arXiv</h3><a class="button" href="https://arxiv.org/">Открыть</a></div>
+    <div class="card compact"><h3>GitHub</h3><a class="button" href="https://github.com/slavagerchet-webb">Открыть</a></div>
   </div>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
-  <div class="card">
-    <h3>Внешний курс Stepik «Введение в Linux»</h3>
-    <p>
-      Основной учебный проект: прохождение внешнего курса по Linux, подготовка отчётов,
-      презентаций, архивов исходных материалов, видеозаписей и сертификата.
-    </p>
-    <a class="button" href="{{ "projects/stepik-linux/" | relURL }}">Открыть проект</a>
+  <div class="grid">
+    <div class="card project-hero">
+      <h3>Внешний курс Stepik «Введение в Linux»</h3>
+      <p>
+        Основной учебный проект: прохождение внешнего курса, подготовка отчётов, презентаций, видеозаписей, архива исходников, сертификата и публикация материалов на сайте.
+      </p>
+      <a class="button" href="{{ "projects/stepik-linux/index.html" | relURL }}">Открыть проект</a>
+      <a class="button secondary" href="https://github.com/slavagerchet-webb/linux-stepik-course/releases/tag/v1.0">GitHub Release</a>
+    </div>
+
+    <div class="card">
+      <h3>Односвязный список на C++</h3>
+      <p>
+        Лабораторная работа по реализации динамической структуры данных на базе структуры <code>Tovar</code>: добавление, вставка, удаление, вывод и очистка списка.
+      </p>
+      <a class="button" href="{{ "projects/cpp-linked-list/index.html" | relURL }}">Открыть проект</a>
+      <a class="button secondary" href="{{ "files/cpp-labs/lab2-linked-list.cpp" | relURL }}">Код C++</a>
+    </div>
+
+    <div class="card">
+      <h3>Классы vect и matr</h3>
+      <p>
+        Лабораторная работа по объектно-ориентированному программированию: классы вектора и матрицы, перегрузка операций и управление динамической памятью.
+      </p>
+      <a class="button" href="{{ "projects/cpp-vect-matr/index.html" | relURL }}">Открыть проект</a>
+      <a class="button secondary" href="{{ "files/cpp-labs/lab3-vect-matr.cpp" | relURL }}">Код C++</a>
+    </div>
   </div>
 </section>
 
@@ -101,24 +126,37 @@
   <div class="grid">
     <div class="card">
       <h3>Пост по прошедшей неделе</h3>
-      <p>Краткий отчёт о выполненной работе.</p>
-      <a class="button" href="{{ "posts/week-report/" | relURL }}">Читать</a>
+      <p>Краткий отчёт о выполненной работе по курсу и сайту.</p>
+      <a class="button" href="{{ "posts/week-report/index.html" | relURL }}">Читать</a>
     </div>
     <div class="card">
-      <h3>Язык разметки Markdown</h3>
-      <p>Пост о применении Markdown для отчётов и презентаций.</p>
-      <a class="button" href="{{ "posts/markdown/" | relURL }}">Читать</a>
+      <h3>Markdown</h3>
+      <p>Пост о языке разметки Markdown и его применении для отчётов.</p>
+      <a class="button" href="{{ "posts/markdown/index.html" | relURL }}">Читать</a>
     </div>
     <div class="card">
-      <h3>Управление версиями Git</h3>
-      <p>Пост о роли Git в подготовке проекта.</p>
-      <a class="button" href="{{ "posts/git/" | relURL }}">Читать</a>
+      <h3>Git</h3>
+      <p>Пост об управлении версиями и хранении проекта на GitHub.</p>
+      <a class="button" href="{{ "posts/git/index.html" | relURL }}">Читать</a>
     </div>
     <div class="card">
       <h3>Оформление отчёта</h3>
-      <p>Пост о подготовке отчётов в Markdown, PDF и DOCX.</p>
-      <a class="button" href="{{ "posts/report-formatting/" | relURL }}">Читать</a>
+      <p>Пост о структуре отчёта и сборке файлов PDF и DOCX.</p>
+      <a class="button" href="{{ "posts/report-formatting/index.html" | relURL }}">Читать</a>
     </div>
   </div>
 </section>
+
+<section id="implementation">
+  <h2>Техническая реализация сайта</h2>
+  <div class="notice">
+    <p>
+      Сайт реализован как статический сайт на Hugo и опубликован через GitHub Pages. Структура сайта приближена к академическому персональному сайту: Biography, Interests, Education, Skills, Experience, Accomplishments, Resources, Projects, Posts и English version.
+    </p>
+    <p>
+      Ориентиры по заданию: Hugo, Wowchemy, Hugo Academic Theme / HugoBlox Academic.
+    </p>
+  </div>
+</section>
+
 {{ end }}

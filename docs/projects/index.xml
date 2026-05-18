@@ -1,10 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Герчет Вячеслав</title><link>/projects/</link><description>Recent content in Projects on Герчет Вячеслав</description><generator>Hugo</generator><language>ru</language><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Внешний курс Stepik «Введение в Linux»</title><link>/projects/stepik-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/projects/stepik-linux/</guid><description>&lt;h2 id="описание-проекта"&gt;Описание проекта&lt;/h2&gt;
-&lt;p&gt;Проект посвящён прохождению внешнего курса Stepik «Введение в Linux». Курс был выполнен по трём этапам:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Введение.&lt;/li&gt;
-&lt;li&gt;Работа на сервере.&lt;/li&gt;
-&lt;li&gt;Продвинутые темы.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;По каждому этапу были подготовлены отчёт, презентация, скриншоты выполнения заданий, архив исходных материалов и видеозаписи. Материалы размещены в репозитории GitHub, на странице проекта собственного сайта и в виде отдельных файлов.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Герчет Вячеслав</title><link>/projects/</link><description>Recent content in Projects on Герчет Вячеслав</description><generator>Hugo</generator><language>ru</language><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Внешний курс Stepik «Введение в Linux»</title><link>/projects/stepik-linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/projects/stepik-linux/</guid><description>&lt;section class="project-hero"&gt;
+&lt;h2&gt;Внешний курс Stepik «Введение в Linux»&lt;/h2&gt;
+&lt;p class="lead"&gt;
+Проект посвящён прохождению внешнего курса Stepik «Введение в Linux» и оформлению результатов в виде отчётов, презентаций, видеозаписей, архива исходников, сертификата и страницы проекта на собственном сайте научно-инженерного работника.
+&lt;/p&gt;
+&lt;p&gt;
+Проект выполнен по трём этапам: «Введение», «Работа на сервере» и «Продвинутые темы». Для каждого этапа подготовлены файлы отчёта, презентации, исходные материалы и скринкасты.
+&lt;/p&gt;
+&lt;/section&gt;
 &lt;h2 id="цель-проекта"&gt;Цель проекта&lt;/h2&gt;
-&lt;p&gt;Цель проекта - подтвердить прохождение внешнего курса, оформить результаты в виде отчётов и презентаций, а также разместить итоговые материалы на GitHub и на собственном сайте научно-инженерного работника.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Цель проекта - подтвердить прохождение внешнего курса, показать выполненные контрольные мероприятия, оформить результаты в воспроизводимом виде и разместить итоговые материалы на GitHub, в GitHub Release и на собственном сайте.&lt;/p&gt;</description></item><item><title>Лабораторная работа №2: Односвязный список на C++</title><link>/projects/cpp-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/projects/cpp-linked-list/</guid><description>&lt;section class="project-hero"&gt;
+&lt;h2&gt;Лабораторная работа №2: Односвязный список на C++&lt;/h2&gt;
+&lt;p class="lead"&gt;
+Проект посвящён реализации односвязного списка на языке C++ на базе пользовательской структуры &lt;code&gt;Tovar&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;h2 id="описание-проекта"&gt;Описание проекта&lt;/h2&gt;
+&lt;p&gt;В лабораторной работе реализован односвязный список товаров. Каждый элемент списка содержит название товара, количество, цену и указатель на следующий элемент. Программа демонстрирует базовые операции над динамической структурой данных.&lt;/p&gt;
+&lt;h2 id="цель-работы"&gt;Цель работы&lt;/h2&gt;
+&lt;p&gt;Цель работы - освоить построение односвязного списка и выполнение типовых операций над ним средствами языка C++.&lt;/p&gt;
+&lt;h2 id="реализованные-возможности"&gt;Реализованные возможности&lt;/h2&gt;
+&lt;div class="grid"&gt;
+ &lt;div class="card"&gt;
+ &lt;h3&gt;Структура данных&lt;/h3&gt;
+ &lt;p&gt;Используется структура &lt;code&gt;Tovar&lt;/code&gt; с полями &lt;code&gt;name&lt;/code&gt;, &lt;code&gt;amount&lt;/code&gt;, &lt;code&gt;price&lt;/code&gt; и &lt;code&gt;next&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Лабораторная работа №3: Классы vect и matr</title><link>/projects/cpp-vect-matr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/projects/cpp-vect-matr/</guid><description>&lt;section class="project-hero"&gt;
+&lt;h2&gt;Лабораторная работа №3: Классы vect и matr&lt;/h2&gt;
+&lt;p class="lead"&gt;
+Проект посвящён реализации классов &lt;code&gt;vect&lt;/code&gt; и &lt;code&gt;matr&lt;/code&gt; на языке C++ и перегрузке операций векторной и матричной алгебры.
+&lt;/p&gt;
+&lt;/section&gt;
+&lt;h2 id="описание-проекта"&gt;Описание проекта&lt;/h2&gt;
+&lt;p&gt;В лабораторной работе разработана программа на C++, содержащая два пользовательских класса: &lt;code&gt;vect&lt;/code&gt; для работы с векторами и &lt;code&gt;matr&lt;/code&gt; для работы с квадратными матрицами. В программе реализованы конструкторы, деструкторы, копирование, присваивание и перегрузка операций.&lt;/p&gt;
+&lt;h2 id="цель-работы"&gt;Цель работы&lt;/h2&gt;
+&lt;p&gt;Цель работы - закрепить навыки объектно-ориентированного программирования, управления динамической памятью и перегрузки операторов в C++.&lt;/p&gt;</description></item></channel></rss>

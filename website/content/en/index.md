@@ -1,35 +1,137 @@
 ---
-title: "Vyacheslav Gerchet - Academic Website"
+title: "Vyacheslav Gerchet - Academic Personal Website"
 ---
 
-## Biography
+<section id="biography">
+<h2>Biography</h2>
 
-I am a student of group NKAbd-03-25. My academic interests include Linux,
-command-line tools, Bash scripting, Git, Markdown, technical documentation and static websites.
+<p class="lead">
+I am a student of group NKAbd-03-25. My academic and project interests include Linux, Bash scripting, Git, Markdown, Hugo, GitHub Pages, technical documentation and C++ programming.
+</p>
+</section>
 
-## Interests
+<section id="interests">
+<h2>Interests</h2>
 
-- Linux operating systems
-- Bash scripting
-- Git and GitHub
-- Markdown and HTML
-- Technical documentation
-- Automation
+<span class="badge">Linux</span>
+<span class="badge">Bash</span>
+<span class="badge">Git</span>
+<span class="badge">GitHub Pages</span>
+<span class="badge">Markdown</span>
+<span class="badge">Hugo</span>
+<span class="badge">C++</span>
+<span class="badge">Data structures</span>
+<span class="badge">Object-oriented programming</span>
+</section>
 
-## Education
+<section id="education">
+<h2>Education</h2>
 
-Group: NKAbd-03-25.
+<div class="timeline">
+  <div class="timeline-item">
+    <h3>RUDN University</h3>
+    <p class="meta">Group NKAbd-03-25</p>
+    <p>Academic work includes information technology, programming, Linux, technical documentation and project publication.</p>
+  </div>
+</div>
+</section>
 
-## Project
+<section id="skills">
+<h2>Skills, Experience, Accomplishments</h2>
 
-The main project is the completion of the Stepik course “Introduction to Linux”.
-The project includes three stages, reports, presentations, screenshots, videos and a certificate.
+<div class="grid">
+  <div class="card">
+    <h3>Skills</h3>
+    <ul>
+      <li>Linux and Fedora Workstation</li>
+      <li>Bash and command line</li>
+      <li>Git and GitHub</li>
+      <li>Markdown, HTML, PDF, DOCX</li>
+      <li>Hugo and GitHub Pages</li>
+      <li>C++ programming</li>
+    </ul>
+  </div>
 
-[Open Russian project page](../projects/stepik-linux/)
+  <div class="card">
+    <h3>Experience</h3>
+    <ul>
+      <li>Preparing reports in Markdown and DOCX</li>
+      <li>Building presentations in HTML and PDF</li>
+      <li>Publishing project materials on GitHub</li>
+      <li>Creating a GitHub Pages academic website</li>
+      <li>Implementing C++ laboratory projects</li>
+    </ul>
+  </div>
 
-## Results
+  <div class="card">
+    <h3>Accomplishments</h3>
+    <ul>
+      <li>Completed the Stepik course “Introduction to Linux”</li>
+      <li>Prepared reports for three course stages</li>
+      <li>Prepared presentations for three course stages</li>
+      <li>Created a bilingual academic personal website</li>
+      <li>Completed C++ laboratory projects</li>
+    </ul>
+  </div>
+</div>
+</section>
 
-- Completed the Stepik course “Introduction to Linux”.
-- Prepared reports in Markdown, PDF and DOCX.
-- Prepared presentations in Markdown, HTML and PDF.
-- Created a bilingual academic personal website.
+<section id="resources">
+<h2>Scientific and Bibliometric Resources</h2>
+
+<div class="grid">
+  <div class="card compact"><h3>eLibrary</h3><a class="button" href="https://elibrary.ru/">Open</a></div>
+  <div class="card compact"><h3>Google Scholar</h3><a class="button" href="https://scholar.google.com/">Open</a></div>
+  <div class="card compact"><h3>ORCID</h3><a class="button" href="https://orcid.org/">Open</a></div>
+  <div class="card compact"><h3>Mendeley</h3><a class="button" href="https://www.mendeley.com/">Open</a></div>
+  <div class="card compact"><h3>ResearchGate</h3><a class="button" href="https://www.researchgate.net/">Open</a></div>
+  <div class="card compact"><h3>Academia.edu</h3><a class="button" href="https://www.academia.edu/">Open</a></div>
+  <div class="card compact"><h3>arXiv</h3><a class="button" href="https://arxiv.org/">Open</a></div>
+  <div class="card compact"><h3>GitHub</h3><a class="button" href="https://github.com/slavagerchet-webb">Open</a></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="grid">
+  <div class="card project-hero">
+    <h3>Stepik Course “Introduction to Linux”</h3>
+    <p>External course completion project with reports, presentations, screencasts, source archives, certificate and GitHub publication.</p>
+    <a class="button" href="{{ "en/projects/stepik-linux/index.html" | relURL }}">Open project</a>
+  </div>
+
+  <div class="card">
+    <h3>C++ Singly Linked List</h3>
+    <p>Laboratory work implementing a dynamic linked list based on the <code>Tovar</code> structure.</p>
+    <a class="button" href="{{ "en/projects/cpp-linked-list/index.html" | relURL }}">Open project</a>
+  </div>
+
+  <div class="card">
+    <h3>C++ Classes vect and matr</h3>
+    <p>Laboratory work on object-oriented programming, operator overloading and dynamic memory management.</p>
+    <a class="button" href="{{ "en/projects/cpp-vect-matr/index.html" | relURL }}">Open project</a>
+  </div>
+</div>
+</section>
+
+<section id="posts">
+<h2>Posts</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3>Weekly report</h3>
+    <p>A short report on the completed work.</p>
+  </div>
+
+  <div class="card">
+    <h3>Markdown</h3>
+    <p>A post about Markdown usage for reports and presentations.</p>
+  </div>
+
+  <div class="card">
+    <h3>Git</h3>
+    <p>A post about version control and GitHub project publication.</p>
+  </div>
+</div>
+</section>

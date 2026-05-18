@@ -1,29 +1,64 @@
+{{ $isEN := in .RelPermalink "/en/" }}
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="{{ if $isEN }}en{{ else }}ru{{ end }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .Title }}{{ .Title }} - {{ end }}Герчет Вячеслав</title>
+  <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ if $isEN }}Vyacheslav Gerchet{{ else }}Герчет Вячеслав{{ end }}</title>
   <link rel="stylesheet" href="{{ "assets/style.css" | relURL }}">
 </head>
 <body>
   <header>
     <div class="header-inner">
-      <img class="avatar" src="{{ "assets/photo.jpg" | relURL }}" alt="Фотография владельца сайта">
+      <img class="avatar" src="{{ "assets/photo.jpg" | relURL }}" alt="{{ if $isEN }}Profile photo{{ else }}Фотография владельца сайта{{ end }}">
       <div>
-        <h1>Герчет Вячеслав</h1>
-        <p>Сайт научно-инженерного работника</p>
-        <p>Группа НКАбд-03-25</p>
+        {{ if $isEN }}
+          <div class="header-kicker">Academic personal website</div>
+          <h1>Vyacheslav Gerchet</h1>
+          <p>Scientific and engineering personal website</p>
+          <p>Group NKAbd-03-25</p>
+          <div class="header-actions">
+            <a class="button" href="{{ "en/projects/stepik-linux/index.html" | relURL }}">Stepik Linux Project</a>
+            <a class="button secondary" href="https://github.com/slavagerchet-webb/linux-stepik-course">GitHub</a>
+          </div>
+        {{ else }}
+          <div class="header-kicker">Academic personal website</div>
+          <h1>Герчет Вячеслав</h1>
+          <p>Сайт научно-инженерного работника</p>
+          <p>Группа НКАбд-03-25</p>
+          <div class="header-actions">
+            <a class="button" href="{{ "projects/stepik-linux/index.html" | relURL }}">Проект Stepik Linux</a>
+            <a class="button secondary" href="https://github.com/slavagerchet-webb/linux-stepik-course">GitHub</a>
+          </div>
+        {{ end }}
       </div>
     </div>
   </header>
 
   <nav>
-    <a href="{{ "" | relURL }}">Главная</a>
-    <a href="{{ "projects/stepik-linux/" | relURL }}">Проект Stepik Linux</a>
-    <a href="{{ "posts/week-report/" | relURL }}">Пост недели</a>
-    <a href="{{ "posts/markdown/" | relURL }}">Markdown</a>
-    <a href="{{ "en/" | relURL }}">English</a>
+    <div class="nav-inner">
+      {{ if $isEN }}
+        <a href="{{ "en/index.html" | relURL }}">Home</a>
+        <a href="{{ "en/index.html#biography" | relURL }}">Biography</a>
+        <a href="{{ "en/index.html#education" | relURL }}">Education</a>
+        <a href="{{ "en/index.html#skills" | relURL }}">Skills</a>
+        <a href="{{ "en/index.html#resources" | relURL }}">Resources</a>
+        <a href="{{ "en/projects/stepik-linux/index.html" | relURL }}">Projects</a>
+        <a href="{{ "en/index.html#posts" | relURL }}">Posts</a>
+        <a href="{{ "index.html" | relURL }}">Русский</a>
+        <a href="{{ "en/index.html" | relURL }}">English</a>
+      {{ else }}
+        <a href="{{ "index.html" | relURL }}">Главная</a>
+        <a href="{{ "index.html#biography" | relURL }}">Biography</a>
+        <a href="{{ "index.html#education" | relURL }}">Education</a>
+        <a href="{{ "index.html#skills" | relURL }}">Skills</a>
+        <a href="{{ "index.html#resources" | relURL }}">Resources</a>
+        <a href="{{ "projects/stepik-linux/index.html" | relURL }}">Projects</a>
+        <a href="{{ "posts/week-report/index.html" | relURL }}">Posts</a>
+        <a href="{{ "index.html" | relURL }}">Русский</a>
+        <a href="{{ "en/index.html" | relURL }}">English</a>
+      {{ end }}
+    </div>
   </nav>
 
   <main>
@@ -31,7 +66,11 @@
   </main>
 
   <footer>
-    <p>Герчет Вячеслав - НКАбд-03-25</p>
+    {{ if $isEN }}
+      <p>Vyacheslav Gerchet - NKAbd-03-25</p>
+    {{ else }}
+      <p>Герчет Вячеслав - НКАбд-03-25</p>
+    {{ end }}
   </footer>
 </body>
 </html>
